@@ -1301,7 +1301,7 @@ nav a.active {
 
     .floating-nav {
         width: 80%;
-        max-width: 410px;
+        width: 400px;
     }
     .floating-nav nav {
         gap: 7px;
