@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Sanket Kumar Padhan's portfolio - Showcasing projects, skills, and achievements in coding, programming, and web development.">
+    <meta name="keywords" content="Sanket Kumar Padhan, portfolio, web development, coding, programming, JavaScript, React, backend, frontend">
+    <meta name="author" content="Sanket Kumar Padhan">
+
+     <!-- Open Graph Meta Tags (For Social Media) -->
+     <meta property="og:title" content="Portfolio | Sanket Kumar Padhan">
+     <meta property="og:description" content="Explore my projects, skills, and achievements in web development and programming.">
+     <meta property="og:image" content="https://i.ibb.co/GfD73ynz/Screenshot-2025-02-11-012759.png">
+     <meta property="og:url" content="https://sanket3yoprogrammer.vercel.app">
+     <meta property="og:type" content="website">
+
+     <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Portfolio | Sanket Kumar Padhan">
+    <meta name="twitter:description" content="Showcasing my web development and programming projects.">
+    <meta name="twitter:image" content="https://i.ibb.co/GfD73ynz/Screenshot-2025-02-11-012759.png">
+    <meta name="twitter:site" content="@yourtwitterhandle">
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Eo_circle_red_letter-s.svg/2048px-Eo_circle_red_letter-s.svg.png" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Eo_circle_red_letter-s.svg/2048px-Eo_circle_red_letter-s.svg.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Eo_circle_red_letter-s.svg/2048px-Eo_circle_red_letter-s.svg.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Eo_circle_red_letter-s.svg/2048px-Eo_circle_red_letter-s.svg.png">
+
+    <!-- Title -->
+    <title>Portfolio | Sanket Kumar Padhan</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- Scripts -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+</head>
+<body>
+    <div class="cursor">
+        <div class="cursor__ball cursor__ball--big">
+            <svg height="30" width="30">
+                <circle cx="15" cy="15" r="12" stroke-width="0"></circle>
+            </svg>
+        </div>
+        <div class="cursor__ball cursor__ball--small">
+            <svg height="10" width="10">
+                <circle cx="5" cy="5" r="4" stroke-width="0"></circle>
+            </svg>
+        </div>
+    </div>
+
+    
+    <header>
+        <a href="#" class="logo"> <img src="https://avatars.githubusercontent.com/u/152056082?v=4" class="footer-logo"></img></a>
+        <a href="#" style="
+        position: fixed;
+        font-size: 24px;
+        top: 2rem;
+        right: 2rem;
+        color: #b74b4b;
+        font-weight: 800;
+        cursor: none;
+        transition: 0.5s ease;">
+            <i class="bx bx-check-shield change-theme change-theme-button" id="nav-toggle"></i>
+        </a>
+        
+    </header>
+
+    <div class="floating-nav">
+    <nav>
+        <!-- class="active" -->
+        <a href="#" data-title="Home"><i class="fas fa-home"></i></a>
+        <a href="#about" data-title="About"><i class="fas fa-user"></i></a>
+        <a href="#skills" data-title="Skills"><i class="fas fa-code"></i></a>
+        <a href="#projects" data-title="Projects"><i class="fas fa-briefcase"></i></a>
+        <a href="#footer" data-title="Contact"><i class="fas fa-envelope"></i></a>
+    </nav></div>
+    <section class="home" style="background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, transparent 40%), linear-gradient(to right, rgba(0, 0, 0, 0.849) 0%, transparent 40%), linear-gradient(to left, rgba(0, 0, 0, 0.849) 0%, transparent 40%);"
+    >
+        <div class="home-img">
+            <img src="https://i.ibb.co/JR0wSPCV/Picsart-25-02-09-16-38-27-637.png" alt="Sanket3yoProgrammer" id="image">
+        </div>
+        <div class="home-content">
+            <div class="mob-home-content">
+            <h1>Yo!, It's <span>Sanket3yoProgrammer</span></h1>
+            
+            <div class="typing-container">
+                <div class="typing-header">
+                    <span class="red"></span>
+                    <span class="yellow"></span>
+                    <span class="green"></span>
+                </div>
+                <div class="typing-text">
+                    I am a <span id="text"></span>
+                </div>
+            </div> 
+        </div>
+            <div style="display: flex;">
+            
+            <a href="mailto:sanketkumarpadhan95@gmail.com?subject=Hire%20Sanket%20Kumar%20Padhan&body=Hello%20Sanket,%20I%20would%20like%20to%20discuss%20a%20potential%20opportunity%20with%20you." class="btn">Hire me</a>
+            <div class="social-icons">
+                <a href="https://github.com/Sanket3yoProgrammer" data-title="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:sanketkumarpadhan95@gmail.com" data-title="Email"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.chess.com/member/Sanket_Y07" data-title="Chess.com"><i class="fa-solid fa-chess-pawn"></i></a>
+            </div>
+            <a href="#about" class="home__scroll red-theme">
+                <i class="bx bx-mouse home__scroll-icon"></i>
+                <span class="home__scroll-name">Scroll Down</span>
+            </a>
+            
+            </div>
+            
+        </div>
+        
+        
+    </section>
+
+
+
+
+
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-image image-container">
+                <img src="
+                https://w0.peakpx.com/wallpaper/1014/964/HD-wallpaper-nature-autumn-beautiful-beauty-scenery-landscapes-forest-red-fall-thumbnail.jpg
+                " alt="Nature Image">
+            </div>
+            <div class="about-content">
+                <h2>About <span>Me</span></h2>
+                <p>
+                    I'm Sanket, a passionate coder and tech enthusiast. I love problem-solving, designing efficient algorithms,
+                    and working on cool projects that make an impact. My journey is fueled by curiosity, creativity, and a hunger
+                    to keep learning and evolving.
+                </p>
+                <div class="about-icons">
+                    <div class="icon-box">
+                        <i class="fas fa-code"></i>
+                        <h3>Developer</h3>
+                        <p>Creating modern and interactive web experiences.</p>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fas fa-chess"></i>
+                        <h3>Strategist</h3>
+                        <p>Strong analytical skills and problem-solving mindset.</p>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Innovator</h3>
+                        <p>Always exploring new ideas and pushing boundaries.</p>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="about-details">
+                <div class="details-header">
+                    <h2>Sanket Kumar Padhan</h2>
+                    <span>Web Developer & Student</span>
+                </div>
+                <div class="details-grid">
+                    <div class="detail-item">
+                        <div class="icon-bg"><i class="fas fa-user"></i></div>
+                        <strong>Age:</strong> 15
+                    </div>
+                    <div class="detail-item">
+                        <div class="icon-bg"><i class="fas fa-laptop-code"></i></div>
+                        <strong>Experience:</strong> Skilled in Coding, Math, Science
+                    </div>
+                    <div class="detail-item">
+                        <div class="icon-bg"><i class="fas fa-map-marker-alt"></i></div>
+                        <strong>Location:</strong> Jharsuguda, Odisha, India
+                    </div>
+                    <div class="detail-item">
+                        <div class="icon-bg"><i class="fas fa-school"></i></div>
+                        <strong>School:</strong> OAV, H.Katapali
+                    </div>
+                    <div class="detail-item">
+                        <div class="icon-bg"><i class="fas fa-graduation-cap"></i></div>
+                        <strong>Class:</strong> 10
+                    </div>
+                </div>
+            </div>
+            <div class="about-image image-container">
+                <img src="
+                https://images.unsplash.com/photo-1713429237253-8d786de46f31?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                " alt="Nature Image">
+            </div>
+        
+
+        </div>
+        
+    </section>
+
+
+
+    <!-- Tech Stack Section -->
+    <section class="skills section" id="skills" style="background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, transparent 10%), linear-gradient(to right, rgba(0, 0, 0, 0.849) 0%, transparent 10%), linear-gradient(to left, rgba(0, 0, 0, 0.849) 0%, transparent 10%);"
+    >
+        <h2 class="section__title"><span class="section__subtitle">Technical</span>
+        Skills</h2>
+        <p>
+            These are the technologies I use to carefully craft my ideas into reality. My approach is rooted in precision and creativity, transforming concepts into functional and engaging digital experiences.
+        </p>
+
+        <div class="skills__container container grid">
+            <div class="skills__content sb1" data-sr-id="9">
+                <h3 class="skills__title">Frontend Development</h3>
+
+                <div class="skills__box">
+                    
+                        <div class="skills__data">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML Icon" class="skills__icon">
+                            <div>
+                                <h3 class="skills__name">HTML</h3>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS Icon" class="skills__icon">
+                            <div>
+                                <h3 class="skills__name">CSS</h3>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS Icon" class="skills__icon">
+                            <div>
+                                <h3 class="skills__name">Javascript</h3>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma Icon" class="skills__icon">
+                            <div>
+                                <h3 class="skills__name">Figma</h3>
+                            </div>
+                        </div>
+                    
+                    
+                        <div class="skills__data">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap Icon" class="skills__icon">
+                            <div>
+                                <h3 class="skills__name">Bootstrap</h3>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind Icon" class="skills__icon">
+                            <div>
+                                <h3 class="skills__name">Tailwind</h3>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React Icon" class="skills__icon">
+                            <div>
+                                <h3 class="skills__name">React</h3>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter Icon" class="skills__icon">
+                            <div>
+                                <h3 class="skills__name">Flutter</h3>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+            
+                 
+            
+            <div class="skills__content sb2" data-sr-id="9">
+                <h3 class="skills__title">Backend Development</h3>
+            
+                <div class="skills__box">
+
+                        <div class="skills__data">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB Icon" class="skills__icon">
+                            <div>
+                                <h3 class="skills__name">MongoDB</h3>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL Icon" class="skills__icon">
+                            <div>
+                                <h3 class="skills__name">MySQL</h3>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg" alt="Socket.io Icon" class="skills__icon">
+                            <div>
+                                <h3 class="skills__name">Socket.io</h3>
+                            </div>
+                        </div>
+                    
+                        <div class="skills__data">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express.js Icon" class="skills__icon">
+                            <div>
+                                <h3 class="skills__name">Express.js</h3>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" alt="Flask Icon" class="skills__icon">
+                            <div>
+                                <h3 class="skills__name">Flask</h3>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" alt="FastAPI Icon" class="skills__icon">
+                            <div>
+                                <h3 class="skills__name">FastAPI</h3>
+                            </div>
+                        </div>
+                    
+                        <div class="skills__data">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase Icon" class="skills__icon">
+                            <div>
+                                <h3 class="skills__name">Firebase</h3>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg" alt="Supabase Icon" class="skills__icon">
+                            <div>
+                                <h3 class="skills__name">Supabase</h3>
+                            </div>
+                        </div> 
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <div class="skills__container container grid">
+            
+            <div class="skills__content sb3" data-sr-id="9">
+                <h3 class="skills__title">Tools</h3>
+            
+                <div class="skills__box">
+                    <div class="skills__data">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code Icon" class="skills__icon">
+                        <div>
+                            <h3 class="skills__name">VS Code</h3>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="Postman Icon" class="skills__icon">
+                        <div>
+                            <h3 class="skills__name">Postman</h3>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma Icon" class="skills__icon">
+                        <div>
+                            <h3 class="skills__name">Figma</h3>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux Icon" class="skills__icon">
+                        <div>
+                            <h3 class="skills__name">Linux</h3>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git Icon" class="skills__icon">
+                        <div>
+                            <h3 class="skills__name">Git</h3>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub Icon" class="skills__icon">
+                        <div>
+                            <h3 class="skills__name">GitHub</h3>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg" alt="Vercel Icon" class="skills__icon">
+                        <div>
+                            <h3 class="skills__name">Vercel</h3>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/netlify/netlify-original.svg" alt="Netlify Icon" class="skills__icon">
+                        <div>
+                            <h3 class="skills__name">Netlify</h3>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+            <div class="skills__content sb4" data-sr-id="9">
+                <h3 class="skills__title">Others</h3>
+            
+                <div class="skills__box">
+                    <div class="skills__data">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python Icon" class="skills__icon">
+                        <div>
+                            <h3 class="skills__name">Python</h3>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch Icon" class="skills__icon">
+                        <div>
+                            <h3 class="skills__name">PyTorch</h3>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" alt="OpenCV Icon" class="skills__icon">
+                        <div>
+                            <h3 class="skills__name">OpenCV</h3>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow Icon" class="skills__icon">
+                        <div>
+                            <h3 class="skills__name">TensorFlow</h3>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Gnu-bash-logo.svg" alt="Bash Icon" class="skills__icon">
+                        <div>
+                            <h3 class="skills__name">Bash</h3>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" alt="Ubuntu Icon" class="skills__icon">
+                        <div>
+                            <h3 class="skills__name">Ubuntu</h3>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAUVBMVEUAAAD////w8PAZGRmampqdnZ2Xl5dcXFz09PSUlJTOzs76+vrKyspZWVlQUFAREREXFxeMjIwdHR1HR0fS0tIICAhTU1O5ubnr6+tfX183NzdgmpAtAAACCElEQVR4nO3cWXbCMAyFYUiYSwhQoMP+F9r3yg+cWKD46v9WIJ1y6zFeLAAAAAAAAAAAAAAAAAAAAAAAAAAACHdZ/7ePLsnZdmlsomtytrEtDtE1OTuaDnfX6Jp8jZ1p8RBdk7OHfhT3tsVTdE3O9KPY2ygeo2tyNtjfqdrAnyCKBxvFMbomX2f9UTFnFNUmqIUoRpfkbZcxigkmqGpRLExQxUbFBFE82d/pKromZ4UobqNrcmaj2J2ja/I12ijeomty9plyVCSKrSls2yQYFRNE8RFdkzO7VuzEJqgJDjMKa8UEE1S1HdSb6VBu24YoCkhwxG9HxY/okrzprxUT7KAmiGJhB/UeXZMz/SgmuG2TM4pit20SrBUTbNt82Rb76Jpcyf8N9XMo/79UfjzUn9PIz0vl1xbyIdRf48uHUH6vLWMIxfa85aej8mdP8ueH8iHUXxPK38WQv08jvzGjf69N/m6i/P1S+TvC+ve8CWHr9L+Zkf/uSf7bNfnvDzPujoqFUP5b7owhfPZNhfu1n+S9J8k172IMu26S71c2ZNS8bVJ48+0pbz0EqdodbaHDuodNGuiw8p2oBjqsvDEz/w5rjyhm32H1jZm5d1h/RDH3Duuvrc28Q4fD+nl36PEG7c/EDpevaMjweEf4d72aRGx5DQAAAAAAAAAAAAAAAAAAAAAAAABo0x9/IxadCQ7ThwAAAABJRU5ErkJggg==" alt="Termux Icon" class="skills__icon">
+                        <div>
+                            <h3 class="skills__name">Termux</h3>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg" alt="Vite Icon" class="skills__icon">
+                        <div>
+                            <h3 class="skills__name">Vite</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+                </div>
+    </section>
+
+
+        <section id="projects" style="background: linear-gradient(to right, rgba(0, 0, 0, 0.849) 0%, transparent 19%), linear-gradient(to left, rgba(0, 0, 0, 0.849) 0%, transparent 19%);">
+            
+            <h2 class="section-title"><span>My </span>Projects</h2>
+            <p class="section-description">
+                Explore my latest projects in web development, AI, and tools. Click on any project to see it live. 🚀
+            </p>
+    
+            <!-- Background Glows -->
+             <!-- <div class="background-glowsyo">
+                <div class="glowyo glow-1"></div>
+                <div class="glowyo glow-2"></div>
+                <div class="glowyo glow-3"></div>
+            </div> -->
+            
+            <div class="background-glows">
+                <div class="glow glow-1"></div>
+                <div class="glow glow-2"></div>
+                <div class="glow glow-3yo"></div>
+            </div>
+            
+            
+            
+            <div class="projects-container">
+                <!-- Projects List -->
+        </div>
+        </section>
+    
+
+
+        <footer class="footer" id="footer" style="background:  linear-gradient(35deg, rgba(155, 6, 241, 0.308), rgb(216, 158, 250));">
+            <div class="footer-container">
+                <!-- Logo & Branding -->
+                <div class="footer-brand">
+                    <img src="https://avatars.githubusercontent.com/u/152056082?v=4" alt="Sanket's Logo" class="footer-logo">
+                    <h2>Sanket3yoProgrammer</h2>
+                    
+                </div>
+        
+                <!-- Quick Links -->
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home  <i class="bx bx-link-external contact__button-icon"></i> </a></li>
+                        <li><a href="#about">About  <i class="bx bx-link-external contact__button-icon"></i> </a></li>
+                        <li><a href="#projects">Projects   <i class="bx bx-link-external contact__button-icon"></i></a></li>
+                        <li><a href="#footer">Contact   <i class="bx bx-link-external contact__button-icon"></i></a></li>
+                    </ul>
+                </div>
+        
+                <!-- Social Media -->
+                <div class="footer-socials">
+                    <h3>Connect With Me</h3>
+                    <ul>
+                        <li><a href="https://github.com/Sanket3yoProgrammer" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+                        <li><a href="mailto:sanketkumarpadhan@gmail.com"><i class="fas fa-envelope"></i> Email</a></li>
+                     </ul>
+                </div>
+        
+                <!-- Contact -->
+                <div class="footer-contact">
+                    <h3>Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> India</p>
+                    <p><i class="fas fa-envelope"></i> sanketkumarpadhan95.com</p>
+                </div>
+            </div>
+        
+            <!-- Bottom Section -->
+            <div class="footer-bottom">
+                <p>Made with <box-icon name='heart' type='solid' flip='horizontal' animation='burst' color='#f7c3e1' ></box-icon> by <strong>Sanket3yoProgrammer</strong></p>
+            </div>
+        </footer>
+
+        
+        <script>
+            const projects = [
+                { id: 1, name: "Phg-web", description: "A web app with cool features for friends.", link: "https://phg-web.vercel.app/index.html", image: "https://img.freepik.com/free-vector/group-friends-sitting-table-talking-drinking-coffee-tea-tiny-people-friends-meeting-cheer-up-friend-friendship-support-concept_335657-623.jpg" },
+                { id: 2, name: "Yo-Chat", description: "A real-time chat application.", link: "https://yo-phg-chat.vercel.app/chat", image: "https://herobot.app/wp-content/uploads/2022/11/11-Reasons-Why-A-Chat-Application-Is-Great-For-Business_1.jpg" },
+                { id: 3, name: "BMI Calculator", description: "A simple BMI calculator.", link: "https://sanket3yoprogrammer.github.io/BmiCalculator/", image: "https://www.metropolisindia.com/upgrade/blog/upload/24/08/Body_Mass_Index1723205045.webp" },
+                { id: 4, name: "Aggressor", description: "An advanced web-based platform.", link: "https://aggressor-gaming.vercel.app/", image: "https://dianapps.com/blog/wp-content/uploads/2024/05/Cloud-Technology-Gaming.png" },
+                { id: 5, name: "History Chapter 1 Timeline", description: "A timeline for History Chapter 1.", link: "https://sanket3yoprogrammer.github.io/History-class-10/", image: "https://www.euroschoolindia.com/wp-content/uploads/2023/07/importance-of-history-scaled-1.jpg" },
+                { id: 6, name: "History Chapter 2 Timeline", description: "A timeline for History Chapter 2.", link: "https://sanket3yoprogrammer.github.io/Class10his2/", image: "https://lh4.googleusercontent.com/proxy/3vhpIbg-YZGyCft5u3ZFJhqj0yXFOg4EekZr5ENntNPN1vr11g6BnhnB7H-29sd8aXsImGODMJfnf0QpQEYu6SxjqBhaVKhturGR5_CC7THb8JYy81EuO-57iraygzxaquQxx01UlcvApFMW8Nqz" },
+                { id: 7, name: "Upload-yoi", description: "A media upload platform.", link: "https://adminuploadyoi.vercel.app/", image: "https://media.istockphoto.com/id/1306687171/vector/system-software-updating-or-loading-process-concept-on-laptop.jpg?s=612x612&w=0&k=20&c=Q-i4WnafVk1yjvXYKc6Rwtjcg3E7p8cydRKaqpVvGIg=" },
+                { id: 8, name: "Gallery-yoi", description: "A media gallery platform.", link: "https://uploadyoi.vercel.app/", image: "https://lifestyleforreallife.com/wp-content/uploads/2024/02/boopiered_art_gallery_in_the_style_of_flat_design_54c79340-781c-44fd-80f4-a4542c21a329.jpeg" },
+                { id: 9, name: "OAV-HK-JSG", description: "A web app with unique functionalities.", link: "https://oav-hk-jsg.vercel.app/", image: "https://img.freepik.com/free-photo/illustration-depicting-corporate-job_23-2151889080.jpg" },
+                { id: 10, name: "Speech-to-Text Model", description: "An AI-powered speech-to-text converter.", link: "https://speech-to-text-model-ten.vercel.app/", image: "https://strapiprod.knowlarity.com/uploads/6_m_1_efec69ffb1.png" },
+                { id: 11, name: "Face AI Detection", description: "A web app for AI-powered face detection.", link: "https://face-ai-detection.netlify.app/", image: "https://ai.thestempedia.com/wp-content/uploads/2022/02/Face-recog_security-system-1024x576.png" },
+                { id: 12, name: "SanketCalc-AI", description: "An AI-powered calculator.", link: "https://sanketcalc-ai.vercel.app/", image: "https://wpvip.edutopia.org/wp-content/uploads/2023/06/hero_blog_math_Technology-Integration_illustration_ikon_00025457_Patrick-George.jpg?w=2880&quality=85" },
+                { id: 13, name: "Happy New Year", description: "A special New Year greeting web app.", link: "https://happy-new-year-sand.vercel.app/", image: "https://thumbs.dreamstime.com/b/happy-new-year-message-fireworks-snowman-happy-children-adorable-doodle-drawing-wishing-friend-relative-happy-342729387.jpg" },
+                { id: 14, name: "Thank You Page", description: "A simple thank you webpage.", link: "https://sanket3yoprogrammer.github.io/Thanku/", image: "https://static.vecteezy.com/system/resources/previews/051/113/679/non_2x/thank-you-text-with-gift-boxes-and-balloons-vector.jpg" },
+                { id: 15, name: "OAV-IMG-DB", description: "A digital album of school memories.", link: "https://oav-vault.vercel.app/", image: "https://st2.depositphotos.com/3600153/6933/v/950/depositphotos_69332667-stock-illustration-school-album-yearbook-and-books.jpg" },
+                { id: 16, name: "My Repos", description: "Check out more projects on GitHub.", link: "https://github.com/Sanket3yoProgrammer?tab=repositories", image: "https://seahawkmedia.com/wp-content/uploads/2022/06/Github-1.png" }
+            ];
+
+    
+            const container = document.querySelector(".projects-container");
+    
+            projects.forEach(project => {
+                const projectCard = document.createElement("div");
+                projectCard.classList.add("project-card");
+    
+                projectCard.innerHTML = `
+                <a href="${project.link}" target="_blank">
+                    <img src="${project.image}" alt="${project.name}" class="project-image"></a>
+                    <h3 class="project-name">${project.name}</h3>
+                    <div class="project-description">${project.description}</div>
+                    <div class="buttons">
+                        <a href="${project.link}" target="_blank" class="live-btn">Live Demo</a>
+                    </div>
+                `;
+
+    
+                container.appendChild(projectCard);
+            });
+
+            
+        </script>
+
+    
+    
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script>
+const bigBall = document.querySelector('.cursor__ball--big');
+const smallBall = document.querySelector('.cursor__ball--small');
+const hoverables = document.querySelectorAll('.hoverable');
+
+// Mouse events (for PC)
+document.body.addEventListener('mousemove', onMove);
+document.body.addEventListener('mouseover', checkHover);
+document.body.addEventListener('mouseout', checkHover);
+
+// Touch events (for Mobile)
+document.body.addEventListener('touchmove', onTouchMove);
+document.body.addEventListener('touchstart', showCursor);
+document.body.addEventListener('touchend', hideCursor);
+
+hoverables.forEach(el => {
+    el.addEventListener('mouseenter', onMouseHover);
+    el.addEventListener('mouseleave', onMouseHoverOut);
+});
+
+// Show cursor on PC (always visible)
+function onMove(e) {
+    let x = e.clientX, y = e.clientY;
+    gsap.to(bigBall, { duration: 0.4, x, y, ease: "power2.out" });
+    gsap.to(smallBall, { duration: 0.1, x, y, ease: "power2.out" });
+}
+
+// Show & Move cursor on touch (only when touching)
+function onTouchMove(e) {
+    let x = e.touches[0].clientX, y = e.touches[0].clientY;
+    showCursor();
+    gsap.to(bigBall, { duration: 0.4, x, y, ease: "power2.out" });
+    gsap.to(smallBall, { duration: 0.1, x, y, ease: "power2.out" });
+}
+
+// Hide cursor when not touching (for mobile)
+function hideCursor() {
+    bigBall.style.opacity = "0";
+    smallBall.style.opacity = "0";
+}
+
+// Show cursor when touching (for mobile)
+function showCursor() {
+    bigBall.style.opacity = "1";
+    smallBall.style.opacity = "1";
+}
+
+// Hover effect
+function onMouseHover() {
+    gsap.to(bigBall, { duration: 0.3, scale: 4, ease: "power2.out" });
+}
+
+function onMouseHoverOut() {
+    gsap.to(bigBall, { duration: 0.3, scale: 1, ease: "power2.out" });
+}
+
+// Check hoverable elements
+function checkHover(e) {
+    let target = e.targetTouches ? document.elementFromPoint(e.touches[0].clientX, e.touches[0].clientY) : e.target;
+    
+    if (target.closest('nav, .home-content, .btn, .image-container, .project-image, .buttons')) {
+        bigBall.parentElement.classList.add('cursor--dark');
+        smallBall.parentElement.classList.add('cursor--light');
+    } else {
+        bigBall.parentElement.classList.remove('cursor--dark');
+        smallBall.parentElement.classList.remove('cursor--light');
+    }
+}
+
+
+
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
