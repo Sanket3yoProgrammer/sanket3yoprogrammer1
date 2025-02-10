@@ -298,7 +298,7 @@ h1 span{
 .yellow { background: #ffbd2e; }
 .green { background: #28c940; }
 .typing-text {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     min-width: 280px;
     text-shadow: 0 0 5px #b74b4b, 0 0 10px #ff0000;
