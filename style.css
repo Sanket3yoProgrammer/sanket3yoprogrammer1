@@ -1304,10 +1304,10 @@ nav a.active {
         width: 350px;
     }
     .floating-nav nav {
-        gap: 7px;
+        gap: 12px;
     }
     .floating-nav a {
-        width: 35px;
-        height: 35px;
+        width: 40px;
+        height: 40px;
     }
 }
