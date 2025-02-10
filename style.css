@@ -419,7 +419,7 @@ circle {
 .floating-nav nav {
     display: flex;
     flex-direction: row;
-    gap: 14px;
+    gap: 10px;
     position: relative;
     margin-left: -9px;
 }
@@ -1300,13 +1300,13 @@ nav a.active {
 
     .floating-nav {
         width: 80%;
-        max-width: 340px;
+        max-width: 360px;
     }
     .floating-nav nav {
-        gap: 1;
+        gap: 7px;
     }
     .floating-nav a {
-        width: 25px;
-        height: 25px;
+        width: 30px;
+        height: 30px;
     }
 }
