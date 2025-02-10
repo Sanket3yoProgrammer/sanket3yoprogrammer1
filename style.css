@@ -67,7 +67,7 @@ header {
     left: 50%;
     transform: translateX(-50%);
     width: 70%;
-    padding: 1rem 9%;
+    padding: 0;
     background: rgba(39, 30, 30, 0.658); /* Low-opacity blur effect */
     backdrop-filter: blur(10px); /* Blurred glass effect */
     -webkit-backdrop-filter: blur(10px);
@@ -93,7 +93,7 @@ header {
 
 section{
     min-height: 100vh;
-    
+    margin-right: -40px;
 }
 .home{
     display: flex;
