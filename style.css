@@ -1290,4 +1290,10 @@ nav a.active {
     html {
         overflow-x: hidden;
     }
+
+    .logo {
+        margin-left: -15px}
+    }
+
+    
 }
