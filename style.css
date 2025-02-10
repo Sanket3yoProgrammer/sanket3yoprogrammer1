@@ -946,7 +946,7 @@ nav a.active {
 
 @media (max-width: 768px) {
     .skills__container {
-        margin-left: -40px;
+        margin-left: auto;
     }
 }
 
