@@ -1307,7 +1307,7 @@ nav a.active {
         gap: 7px;
     }
     .floating-nav a {
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
     }
 }
