@@ -871,7 +871,7 @@ nav a.active {
 .skills__content {
     background: linear-gradient(135deg, rgba(95, 95, 95, 0.493), rgba(76, 5, 131, 0.486));
     
-    width: 400px;
+    width: 80%;
     
     backdrop-filter: blur(10px);
     border-radius: 15px;
