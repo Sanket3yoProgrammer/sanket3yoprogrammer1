@@ -1299,7 +1299,9 @@ nav a.active {
     }
 
     .floating-nav {
-        width: 70%;
+        width: 80%;
     }
-    
+    .floating-nav nav {
+        gap: 8px;
+    }
 }
