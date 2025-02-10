@@ -529,7 +529,7 @@ nav a.active {
         justify-content: center;
         text-align: center; /* Ensures text stays left-aligned */
         width: 100%;
-        padding-left: 20px; /* Optional: Add some padding for spacing */
+         /* Optional: Add some padding for spacing */
     }
 
     .btn {
