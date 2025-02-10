@@ -1285,8 +1285,9 @@ nav a.active {
         border-radius: 12px;
     }
 
-    section {
-    width: 100%;
-    overflow-x: hidden;
+    
+
+    html {
+        overflow-x: hidden;
     }
 }
