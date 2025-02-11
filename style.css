@@ -1314,4 +1314,9 @@ nav a.active {
     .logo img {
         margin-left: -20px;
     }
+
+    .home .home-content h1{
+    font-size: 5rem;
+    line-height: 1;
+    }
 }
