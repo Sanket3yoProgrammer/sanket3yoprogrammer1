@@ -691,8 +691,9 @@ nav a.active {
 
   .about-details {
     padding: 25px;
-    background: linear-gradient(135deg, rgba(248, 60, 3, 0.493), rgba(153, 2, 35, 0.418));
-    /* border-radius: 12px;
+    background: linear-gradient(135deg, rgba(248, 60, 3, 0.4), rgba(153, 2, 35, 0.4));
+    border-radius: 12px;
+      /*
     background: rgba(54, 13, 13, 0.253); 
     border: 1px solid rgba(223, 107, 107, 0.315); */
 
@@ -706,7 +707,7 @@ nav a.active {
 
 .about-details:hover {
     transform: translateY(-3px);
-    box-shadow: 0 12px 30px rgba(230, 111, 111, 0.616);
+    box-shadow: 0 12px 30px rgba(230, 111, 111, 0.716);
 }
 
 .details-header {
@@ -744,7 +745,7 @@ nav a.active {
 }
 
 .detail-item:hover {
-    background: rgba(231, 30, 30, 0.699);
+    background: rgba(231, 30, 30, 0.6);
     transform: translateY(-3px);
 }
 
