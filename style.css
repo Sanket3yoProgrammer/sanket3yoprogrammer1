@@ -690,10 +690,12 @@ nav a.active {
   
 
   .about-details {
-    background: rgba(54, 13, 13, 0.253); /* Dark glass effect */
     padding: 25px;
-    border-radius: 12px;
-    border: 1px solid rgba(223, 107, 107, 0.315);
+    background: linear-gradient(135deg, rgba(248, 60, 3, 0.493), rgba(153, 2, 35, 0.418));
+    /* border-radius: 12px;
+    background: rgba(54, 13, 13, 0.253); 
+    border: 1px solid rgba(223, 107, 107, 0.315); */
+
     backdrop-filter: blur(10px);
     color: #ddd;
     width: 100%;
@@ -771,7 +773,7 @@ nav a.active {
 /* Responsive Design */
 @media (max-width: 768px) {
     .about-details {
-        max-width: 90%;
+        width: 99%;
         padding: 20px;
     }
     .details-header h2 {
