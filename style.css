@@ -691,7 +691,7 @@ nav a.active {
 
   .about-details {
     padding: 25px;
-    background: linear-gradient(135deg, rgba(248, 60, 3, 0.4), rgba(153, 2, 35, 0.4));
+    background: linear-gradient(135deg, rgba(248, 60, 3, 0.5), rgba(153, 2, 35, 0.4));
     border-radius: 12px;
       /*
     background: rgba(54, 13, 13, 0.253); 
