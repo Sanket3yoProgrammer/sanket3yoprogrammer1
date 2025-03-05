@@ -179,7 +179,7 @@ h1 span{
     font-size: 2rem;
     border-radius: 50%;
     margin: 20px 1px 1px 1px;
-    margin-left: 30px;
+    margin-left: 15px;
     transition: 0.3s ease;
     color: #b74b4b;
 }
@@ -248,7 +248,7 @@ h1 span{
 
 .btn{
     max-height: 50px;
-    width: 300px;
+    width: 150px;
     margin-top: 3rem;
     display: inline-block;
     padding: 1rem 2.8rem;
@@ -261,9 +261,10 @@ h1 span{
     border: 2px solid #b74b4b;
     transition: 0.3s ease;
     cursor: none;
+    margin-left: 15px;
 }
 .btn:hover{
-    transform: scale3d(1.03);
+    transform: scale3d(1.03) translateY(-5px);
     background-color: #b74b4b;
     color: black;
     box-shadow: 0 0 25px #b74b4b;
