@@ -538,7 +538,11 @@ nav a.active {
         width: 100%;
          /* Optional: Add some padding for spacing */
     }
-
+    
+    .social-icons {
+        margin-left: -20px;
+    }
+    
     .btn {
         margin-left: 100px;
     }
