@@ -540,7 +540,7 @@ nav a.active {
     }
 
     .btn {
-        margin-left: 30px;
+        margin-left: 0 auto;
     }
 
      h1 span {
