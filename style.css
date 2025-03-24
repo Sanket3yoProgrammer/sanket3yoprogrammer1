@@ -391,7 +391,8 @@ circle {
     animation: bounceUp 0.8s cubic-bezier(0.25, 1.4, 0.3, 1);
     transform: translateX(-50%);
     display: flex;
-    background: #333;
+/*     background: #333; */
+    background: #322d36b2;
     padding-left: -5px;
     padding-right: 10px;
     padding-top: 10px;
