@@ -139,7 +139,7 @@ h1 span{
     filter: drop-shadow(0 -10px 20px rgba(247, 244, 244, 0.295));
     perspective: 2000px; /* Adds depth */
     transform-style: preserve-3d;
-    transform: scale(1.2);
+/*     transform: scale(1.2); */
 }
 
 .home-img::before {
@@ -156,7 +156,7 @@ h1 span{
 
 
 .home-img img {
-    width: 38vw;
+    width: 15vw;
     transition: transform 0.3s ease, filter 0.3s ease;
     transform-origin: center; 
    }
