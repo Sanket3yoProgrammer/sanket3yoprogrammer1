@@ -111,10 +111,16 @@ const projects = [
   },
   { 
    id: 17,
+   name: "Xentry Live",
+   description: "A cool animated gaming website with gsap animations and transitions with react and nextjs.",
+   link: "https://xentry-live.vercel.app/",
+   image: "https://assets.awwwards.com/awards/submissions/2024/07/66a09331b2ddf457682537.jpg"
+  },
+  { 
+   id: 18,
    name: "My Repos",
    description: "Check out more projects on GitHub.",
    link: "https://github.com/Sanket3yoProgrammer?tab=repositories",
    image: "https://seahawkmedia.com/wp-content/uploads/2022/06/Github-1.png"
   },
-  
   ];
