@@ -118,6 +118,13 @@ const projects = [
   },
   { 
    id: 18,
+   name: "Family Golf",
+   description: "A cool animated golf website with gsap animations and transitions",
+   link: "https://sanket3yoprogrammer.github.io/Family-Golf/",
+   image: "https://www.csslight.com/application/upload/WebsitePhoto/66982-Sidcup-Family-Golf.jpg"
+  },
+  { 
+   id: 19,
    name: "My Repos",
    description: "Check out more projects on GitHub.",
    link: "https://github.com/Sanket3yoProgrammer?tab=repositories",
